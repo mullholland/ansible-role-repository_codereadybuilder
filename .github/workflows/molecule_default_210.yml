@@ -9,6 +9,8 @@ on:
       - '**'
     tags-ignore:
       - '*.*'
+  pull_request:
+    types: [assigned]
   schedule:
     - cron: '35 18 18 * *'
 
