@@ -4,7 +4,7 @@
 name: "Ansible Molecule (2.11/default)"
 
 on:
-  push
+  push:
     branches:
       - '**'
     tags-ignore:
