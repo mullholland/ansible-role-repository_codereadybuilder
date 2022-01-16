@@ -4,7 +4,6 @@ exclude_paths:
   - "./molecule/"
   - ./.cache
   - ./.git
-  - ./.github
 
 skip_list:
   - '106'       # Role name {} does not match ``^[a-z][a-z0-9_]+$`` pattern
