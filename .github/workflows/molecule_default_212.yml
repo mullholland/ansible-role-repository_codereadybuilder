@@ -4,10 +4,11 @@
 name: "Ansible Molecule (2.12/default)"
 
 on:
-  branches:
-    - '**'
-  tags-ignore:
-    - '*.*'
+  push
+    branches:
+      - '**'
+    tags-ignore:
+      - '*.*'
   schedule:
     - cron: '35 18 18 * *'
 
