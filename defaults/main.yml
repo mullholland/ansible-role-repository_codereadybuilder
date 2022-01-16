@@ -1,0 +1,12 @@
+---
+repository_codereadybuilder_repo_file:
+  RedHat:
+    "8": "ubi.repo"
+  CentOS:
+    "9": "centos.repo"
+
+repository_codereadybuilder_repo_name:
+  RedHat:
+    "8": "ubi-8-codeready-builder"
+  CentOS:
+    "9": "crb"

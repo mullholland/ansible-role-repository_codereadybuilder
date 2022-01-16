@@ -1,0 +1,8 @@
+---
+- name: enable codereadybuilder
+  community.general.ini_file:
+    path: "/etc/yum.repos.d/{{ repository_codereadybuilder_repo_file[ansible_distribution][ansible_distribution_major_version] }}"
+    section: "{{ repository_codereadybuilder_repo_name[ansible_distribution][ansible_distribution_major_version] }}"
+    option: enabled
+    value: "1"
+    mode: "0644"
