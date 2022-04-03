@@ -16,7 +16,7 @@ molecule_exceptions:
     reason: "repo does not exists on Amazonlinux"
 molecule_scenarios:
   - scenario: "default"
-    ansible: ["2.10", "2.11", "2.12"]
+    ansible: ["previous", "current", "next"]
     platforms:
       - "centos-stream9"
       - "ubi8"
