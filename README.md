@@ -1,5 +1,9 @@
 # [repository_codereadybuilder](#repository_codereadybuilder)
 
+**IMPORTANT**
+This role will no longer be updated.
+---
+
 |GitHub|GitLab|
 |------|------|
 |[![github](https://github.com/mullholland/ansible-role-repository_codereadybuilder/workflows/Ansible%20Molecule/badge.svg)](https://github.com/mullholland/ansible-role-repository_codereadybuilder/actions)|[![gitlab](https://gitlab.com/mullholland/ansible-role-repository_codereadybuilder/badges/main/pipeline.svg)](https://gitlab.com/mullholland/ansible-role-repository_codereadybuilder)|
